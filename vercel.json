@@ -2,7 +2,8 @@
     "version": 2,
     "public": true,
     "builds": [
-      { "src": "LandingPage.html", "use": "@vercel/static" }
+      { "src": "LandingPage.html", "use": "@vercel/static" },
+      { "src": "style.css", "use": "@vercel/static" }
     ],
     "routes": [
       { "src": "/(.*)", "dest": "/LandingPage.html" }
